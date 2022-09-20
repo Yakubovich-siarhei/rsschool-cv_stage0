@@ -1,1 +1,1 @@
-# <https://github.com/Yakubovich-siarhei/rsschool-cv.git>
+# <https://Yakubovich-siarhei.github.io/rsschool-cv/cv>
