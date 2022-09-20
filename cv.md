@@ -1,4 +1,4 @@
-# rsschool-cv
+# [rsschool-cv] (<https://rs.school/>)
 
 ## Yakubovich Siarhei
 
