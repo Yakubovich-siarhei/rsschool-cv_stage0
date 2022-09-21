@@ -6,9 +6,7 @@ Location: Minsk, Belarus
 
 ### Email: yakubovich.siarhei@mail.ru
 
-[пример](https://github.com/Yakubovich-siarhei/ "Необязательная подсказка")
-
-### GitHub: <https://github.com/Yakubovich-siarhei>
+### GitHub: [Yakubovich-siarhei](https://github.com/Yakubovich-siarhei/ "Yakubovich-siarhei GitHub")
 
 #### About Me
 
