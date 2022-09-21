@@ -25,13 +25,13 @@ I aspire to change my life and profession.
 
 #### Code
 
-  ```html                                     |
-            html                              |              css
-  <html lang="en">                            |
-    <head>                                    |
-    </head>  
+```html, css
+      html                                                            css
+  <html lang="en">                                              .content {
+    <head>                                                         height: 50%;
+    </head>                                                     }
     <body>
-      <div>
+      <div class="content">
         content
       </div>
     </body>  
