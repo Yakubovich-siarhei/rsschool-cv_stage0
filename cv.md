@@ -10,7 +10,7 @@ Location: Minsk, Belarus
 
 #### About Me
 
-I build a house with my own hands.
+I build a house with my own hands.  
 I aspire to change my life and profession.
 
 * #### Skills
@@ -22,6 +22,10 @@ I aspire to change my life and profession.
   * SkechUp
   * Compas 3D
   * Google
+
+#### Code
+
+  (`<html lang="en">  <head>   </head>  <body>  </body>  </html>`)
 
 ### Education
 
