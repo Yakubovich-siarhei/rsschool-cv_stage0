@@ -1,6 +1,8 @@
 # Yakubovich Siarhei
 
-## Contacts
+## RSschool student
+
+### Contacts
 
 Location: Minsk, Belarus
 
@@ -29,8 +31,8 @@ I aspire to change my life and profession.
       html                                                            css
   <html lang="en">                                              .content {
     <head>                                                         height: 50%;
-    </head>                                                     }
-    <body>
+    </head>                                                        font-weight: 800;
+    <body>                                                       }
       <div class="content">
         content
       </div>
@@ -38,11 +40,11 @@ I aspire to change my life and profession.
   </html>
   ```
 
-### Education
+#### Education
 
  МГВРК, Minsk
 
-### Languages
+#### Languages
 
 * English
   * ??%
