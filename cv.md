@@ -27,7 +27,7 @@ I aspire to change my life and profession.
 
 #### Code
 
-```test
+```text
   <html lang="en">                                              
     <head>                                                        
     </head>                                                       
@@ -46,7 +46,7 @@ I aspire to change my life and profession.
 #### Languages
 
 * English
-  * ??%
+  * 1-10%
 
 * Rusian
   * 95%
