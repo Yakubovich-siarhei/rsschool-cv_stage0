@@ -15,15 +15,15 @@ Location: Minsk, Belarus
 I build a house with my own hands.  
 I aspire to change my life and profession.
 
-* #### Skills
+#### Skills
 
-  * HTML
-  * CSS
-  * Git
-  * Photoshop
-  * SkechUp
-  * Compas 3D
-  * Google
+* HTML
+* CSS
+* Git
+* Photoshop
+* SkechUp
+* Compas 3D
+* Google
 
 #### Code
 
