@@ -25,7 +25,12 @@ I aspire to change my life and profession.
 
 #### Code
 
-  (`<html lang="en">  <head>   </head>  <body>  </body>  </html>`)
+  `<html lang="en">`
+    `<head>`
+    `</head>`  
+    `<body>`  
+    `</body>`  
+  `</html>`
 
 ### Education
 
