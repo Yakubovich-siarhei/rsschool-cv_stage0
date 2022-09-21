@@ -6,7 +6,7 @@ Location: Minsk, Belarus
 
 ### Email: yakubovich.siarhei@mail.ru
 
-### GitHub: [Yakubovich-siarhei](https://github.com/Yakubovich-siarhei/ "Yakubovich-siarhei GitHub")
+### GitHub: [Yakubovich-siarhei](https://github.com/Yakubovich-siarhei/ "https://github.com/Yakubovich-siarhei/")
 
 #### About Me
 
@@ -30,6 +30,9 @@ I aspire to change my life and profession.
     <head>
     </head>  
     <body>
+      <div>
+        content
+      </div>
     </body>  
   </html>
   ```
