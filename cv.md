@@ -18,7 +18,7 @@ I aspire to change my life and profession.
 * #### Skills
 
   * HTML
-  * CSS/SASS
+  * CSS
   * Git
   * Photoshop
   * SkechUp
