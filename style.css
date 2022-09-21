@@ -14,6 +14,10 @@ body {
     justify-content: space-between;
 }
 
+a {
+	text-decoration: none;
+}
+
 ul,
 ol,
 li {
@@ -23,16 +27,36 @@ img {
 	vertical-align: top;
 }
 
+/*-----------------------header------------------*/
+
 .wrapper {
     border: solid black 1px; 
     max-width: 1440px;
     margin: 0 auto;
 }
 
+.wrapper_header {
+    display: flex;
+	align-items: center;
+}
+
+.menu_item {
+    display: inline;
+}
+
+.header_menu {
+    margin: 0px 0px 0px 20%;
+}
+
+.menu_item:not(:last-child) {
+	margin: 0px 50px 0px 0px;
+}
+
 .wrapper_main {
     display: flex;
     flex-wrap: nowrap;
 }
+
 .container {
     border: solid black 1px; 
 }
