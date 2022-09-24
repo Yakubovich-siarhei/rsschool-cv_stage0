@@ -1,3 +1,5 @@
+/*-----------------------NULL ALL------------------*/
+
 * {
     margin: 0;
     padding: 0;
@@ -7,67 +9,129 @@
 }
 
 body {
-	height: 100%;
-	line-height: 1;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+	height: 100%;
+	line-height: 1,5;
+    font-size: 18px;
+    font-weight: 400; 
 }
 
 a {
-	text-decoration: none;
+	text-decoration: none;  /* */
 }
 
 ul,
 ol,
 li {
-	list-style: none;
+	list-style: none; /* убираем подчёркивание */
 }
 img {
-	vertical-align: top;
+	vertical-align: top; /*прижымаем вверх*/
 }
 
-/*-----------------------header------------------*/
+/*-----------------------общие------------------*/
 
+html {
+    scroll-behavior: smooth; /* scroll */
+}
+  
 .wrapper {
-    border: solid black 1px; 
     max-width: 1440px;
     margin: 0 auto;
 }
 
-.wrapper_header {
-    display: flex;
-	align-items: center;
+.container {
+    padding: 0px 15px;
 }
 
-.menu_item {
-    display: inline;
+.section {
+    padding: 20px 0 0 0 ;
+}
+
+.section_title {
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase; 
+    letter-spacing: 4px;   /* межбуквенное */
+}
+
+/*-----------------------header------------------*/
+
+/* .menu_item {   
 }
 
 .header_menu {
-    margin: 0px 0px 0px 20%;
+} 
+*/
+
+.menu_list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.menu_item:not(:last-child) {
-	margin: 0px 50px 0px 0px;
+.nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+    transition: 0.3s;
+    cursor: pointer;
+    color:black;
 }
+
+.nav-link:hover {
+    color:#636466;
+}
+
+
+.avatar {
+    height: 250px;
+    width: 250px;
+    background-image: url(assets/img/yakub_avatar2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+}
+
+/*-----------------------main------------------*/
 
 .wrapper_main {
     display: flex;
     flex-wrap: nowrap;
 }
 
-.container {
-    border: solid black 1px; 
-}
-
 .container_left {
     flex: 0 1 33%;
     background-color: #dbdcdd;
     color: #636466;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+
+
+
 .container_right {
     flex: 0 1 67%;
     background-color: #636466;
     color: #ffff;
+}
+
+/*-----------------------footer------------------*/
+
+.container_footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #636466;
+}
+
+.image_footer {
+    width: 121px;
+    height: 45px;
+    background-image: url(assets/svg/rs_school_js.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    
 }
