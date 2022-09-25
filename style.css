@@ -23,10 +23,6 @@ a {
     color: inherit;
 }
 
-h2 {
-    color:#082461;
-}
-
 p {
     font-size: 14px;
     letter-spacing: 1.5px;
@@ -63,10 +59,19 @@ html {
 }
 
 .section_title {
+    color:#082461;
+    font-size: 28px;
+    font-weight: 800;
+    text-transform: uppercase;  /* caps */
+    letter-spacing: 4px;   /* межбуквенное */
+}
+
+.section_subtitle {
     font-size: 20px;
     font-weight: 600;
     text-transform: uppercase; 
-    letter-spacing: 4px;   /* межбуквенное */
+    letter-spacing: 3px;  
+    padding-bottom: 10px;
 }
 
 .section_title_line {
@@ -77,20 +82,25 @@ html {
 }
 
 /*-----------------------header------------------*/
-
-.last {
-    /* display: none; */
-    visibility: hidden;
-}
-.first:hover ~ .last {
-    /* display: block; */
-    visibility: visible;
+.header {
+    z-index: 999;
 }
 
 .wrapper_header {
-    position: absolute;
-    top: 10px;
-    left: 20%;
+    visibility: hidden;
+}
+
+.wrapper_header_visibility:hover ~ .wrapper_header,
+.wrapper_header:hover  {
+    visibility: visible;    
+}
+
+.wrapper_header_visibility {
+    height: 20px;
+    width: 100%;
+    margin: 0 auto;
+    opacity: 0;
+    background-color: #dbdcdd;
 }
 
 .menu_list {
@@ -121,6 +131,10 @@ html {
 }
 
 /*-----------------------main------------------*/
+.main {
+    margin: -56px 0 0 0;
+    z-index: 2;
+}
 
 .wrapper_main {
     display: flex;
