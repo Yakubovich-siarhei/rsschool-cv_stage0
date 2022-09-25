@@ -9,17 +9,14 @@
 }
 
 body {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
 	line-height: 1,5;
     font-size: 18px;
     font-weight: 400; 
-    /* position: absolute; */
+    background-color: #ecedee;
 }
 
 a {
-	text-decoration: none;  /* */
+	text-decoration: none;  /* подчеркивание*/
     color: inherit;
 }
 
@@ -46,16 +43,21 @@ html {
 }
   
 .wrapper {
-    max-width: 1440px;
-    margin: 0 auto;
+    overflow: hidden;
+	min-height: 100%;
+	display: flex;
+	flex-direction: column;
 }
 
-.container {
-    padding: 30px 40px 0 40px;
+._container {
+	max-width: 1440px;
+	margin: 0px  auto;
+	padding: 0px 15px;
+	box-sizing: content-box;
 }
 
 .section {
-    padding: 20px 0;
+    padding: 20px 50px;
 }
 
 .section_title {
@@ -83,10 +85,11 @@ html {
 
 /*-----------------------header------------------*/
 .header {
+    position: relative;
     z-index: 999;
 }
 
-.wrapper_header {
+.wrapper_header {  
     visibility: hidden;
 }
 
@@ -95,11 +98,11 @@ html {
     visibility: visible;    
 }
 
+
 .wrapper_header_visibility {
     height: 20px;
     width: 100%;
-    margin: 0 auto;
-    opacity: 0;
+    opacity: 0; 
     background-color: #dbdcdd;
 }
 
@@ -109,10 +112,11 @@ html {
     align-items: center;
 }
 
-@media (max-width:968px) {
-    .header_menu {
-        left: 10%;
+@media (max-width: 1040px) {
+    .menu_list {
+        flex-wrap: wrap;
     } 
+    
 }
 
 .nav-link {
@@ -132,7 +136,8 @@ html {
 
 /*-----------------------main------------------*/
 .main {
-    margin: -56px 0 0 0;
+    margin: -46px 0 0 0;
+    position: relative;
     z-index: 2;
 }
 
@@ -141,7 +146,7 @@ html {
 }
 
 .container_main {
-    padding-top: 80px;
+    padding-top: 100px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -152,6 +157,7 @@ html {
 /*-----------------------main content left------------------*/
 
 .avatar {
+    margin-top: -20px;
     height: 250px;
     width: 250px;
     background-image: url(assets/img/yakub_avatar2.png);
@@ -197,7 +203,9 @@ html {
 #code {
     background-color: #dbdcdd;
     color: #636466;
-    width: 100%;
+    margin: 0 auto;
+    min-width: 98%;
+    padding: 0;
 }
 
 .code_content {
@@ -205,6 +213,10 @@ html {
 }
 
 /*-----------------------footer------------------*/
+footer {
+    min-width: 100%;
+    margin: 0 auto;
+}
 
 .container_footer {
     display: flex;
