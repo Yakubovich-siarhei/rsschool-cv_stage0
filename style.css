@@ -68,7 +68,8 @@ html {
     letter-spacing: 4px;   /* межбуквенное */
 }
 
-.section_subtitle {
+.section_subtitle,
+.prompt_header {
     font-size: 20px;
     font-weight: 600;
     text-transform: uppercase; 
@@ -89,21 +90,34 @@ html {
     z-index: 999;
 }
 
-.wrapper_header {  
-    visibility: hidden;
+.header_menu_container {
+    margin-top: -40px;
+    height: 20px;
+    padding: 10px 0;
+    transition: all .5s;
 }
 
-.wrapper_header_visibility:hover ~ .wrapper_header,
-.wrapper_header:hover  {
-    visibility: visible;    
+.prompt_header {
+    color: #082461;
 }
 
+.header_menu_container,
+.header_container:hover  .header_visibility  {  
+    opacity: 0;    
+}
 
-.wrapper_header_visibility {
+.header_container:hover .header_menu_container {    
+    opacity: 1;
+}
+
+.header_visibility {
+    display: flex;
+    align-self: center;
+    justify-content: center;
     height: 20px;
     width: 100%;
-    opacity: 0; 
-    background-color: #dbdcdd;
+    padding: 10px 0;
+    transition: all .3s;
 }
 
 .menu_list {
@@ -238,6 +252,3 @@ footer {
     background-size: contain;
     background-repeat: no-repeat;    
 }
-
-
-
