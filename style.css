@@ -57,7 +57,7 @@ html {
 ._container {
 	max-width: 1440px;
 	margin: 0px  auto;
-	padding: 0px 15px;
+	padding: 0px 5px;
 	box-sizing: content-box;
 }
 
@@ -174,7 +174,7 @@ html {
 }
 
 .container_main {
-    padding-top: 60px;
+    padding-top: 80px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -234,15 +234,16 @@ html {
     padding-left:  10px;
 }
 
-#code {
-    background-color: #dbdcdd;
-    color: #636466;
+#code {    
     margin: 0 auto;
     min-width: 98%;
     padding: 0;
 }
 
 .code_content {
+    margin-top: 20px;
+    background-color: #dbdcdd;
+    color: #636466;
     text-align: left;
 }
 
