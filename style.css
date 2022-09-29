@@ -17,7 +17,7 @@ body {
 	line-height: 1.5;
     font-size: 18px;
     font-weight: 400; 
-    background-color: #ecedee;
+    background-color: #ffff;
 }
 
 a {
@@ -99,7 +99,9 @@ html {
 ._link:hover {
     color: #031a4d;
     transition: all 0.5s;
+    text-shadow: 1px -1px 1px #031a4d;
 }
+
 
 /*-----------------------header------------------*/
 .header {
@@ -145,6 +147,10 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.menu_item:hover {
+    text-shadow: 1px -1px 1px #031a4d;
 }
 
 @media (max-width: 1040px) {
@@ -293,6 +299,8 @@ footer {
 
 .container_footer > * {
     margin: 10px;
+    font-size: 20px;
+    font-weight: 700;
 }
 
 .image_footer {
