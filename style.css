@@ -8,7 +8,7 @@
     font-family: 'Open Sans', sans-serif;
 }
 
-*::selection {
+*::selection {          /*------------------выдеенный ---------------*/
     background-color: #ffff;
     color: #636466;
 }
@@ -16,13 +16,13 @@
 body {
 	line-height: 1.5;
     font-size: 18px;
-    font-weight: 400; 
+    font-weight: 400;
     background-color: #ffff;
 }
 
 a {
 	text-decoration: none;  /* подчеркивание*/
-    color: inherit;    
+    color: inherit;
     transition: all 0.3s;
 }
 
@@ -42,7 +42,7 @@ li {
 ._ibg img {       /* позицианируем */
 	width: 100%;
 	height: 100%;
-	object-fit: cover;   
+	object-fit: cover;
 }
 
 /*-----------------------общие------------------*/
@@ -50,7 +50,7 @@ li {
 html {
     scroll-behavior: smooth; /* scroll */
 }
-  
+
 .wrapper {
     overflow: hidden;
 	min-height: 100%;
@@ -61,7 +61,6 @@ html {
 ._container {
 	max-width: 1440px;
 	margin: 0px  auto;
-	padding: 0px 5px;
 	box-sizing: content-box;
 }
 
@@ -85,8 +84,8 @@ html {
 .prompt_header {
     font-size: 20px;
     font-weight: 600;
-    text-transform: uppercase; 
-    letter-spacing: 3px;  
+    text-transform: uppercase;
+    letter-spacing: 3px;
     padding-bottom: 10px;
 }
 
@@ -111,7 +110,7 @@ html {
 
 .header_menu_container {
     height: 20px;
-    padding: 10px 0; 
+    padding: 10px 0;
 }
 
 .prompt_header {
@@ -119,12 +118,12 @@ html {
 }
 
 .header_menu_container,
-.header_container:hover  .header_visibility  {  
-    display: none;    
+.header_container:hover  .header_visibility {
+    display: none;
 }
 
-.header_container:hover .header_menu_container{
-    display: block;     
+.header_container:hover .header_menu_container {
+    display: block;
     animation: animations 1s ease-out;
 }
 
@@ -156,8 +155,7 @@ html {
 @media (max-width: 1040px) {
     .menu_list {
         flex-wrap: wrap;
-    } 
-    
+    }
 }
 
 .nav-link {
@@ -197,7 +195,7 @@ html {
 
 /*-----------------------main content left------------------*/
 
-#profile {
+.section_profile {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -206,22 +204,25 @@ html {
 .section_title_profile {
     font-size: 34px;
     font-weight: 900;
-    letter-spacing: 4px;  
-
+    letter-spacing: 4px;
 }
 
 .avatar {
-    margin: -20px 0 50px  0;
+    margin: -20px 0 50px 0;
     height: 250px;
     width: 250px;
-    background-image: url(assets/img/yakub_avatar2.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    border-radius: 50%;
 }
 
-.container_left {  
-    justify-content: start;  
+.avatar_img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+
+.container_left {
+    justify-content: start;
     flex: 0 1 33%;
     background-color: #dbdcdd;
     color: #636466;
@@ -234,7 +235,7 @@ html {
 }
 
 /*-----------------------main content right------------------*/
-.container_right {    
+.container_right {
     flex: 0 1 67%;
     background-color: #636466;
     color: #ffff;
@@ -257,7 +258,7 @@ html {
 }
 
 #code,
-#hobies {    
+#hobies {
     min-width: 94%;
 }
 
@@ -294,6 +295,7 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 0 20px;
     background-color: #636466;
 }
 
@@ -308,5 +310,5 @@ footer {
     height: 45px;
     background-image: url(assets/svg/rs_school_js.svg);
     background-size: contain;
-    background-repeat: no-repeat;    
+    background-repeat: no-repeat;
 }
