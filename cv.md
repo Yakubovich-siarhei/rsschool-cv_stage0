@@ -38,4 +38,4 @@ I aspire to change my life and profession.
   * 95%
 
 * Belarus
-  * 80%
+  * 82%
