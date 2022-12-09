@@ -40,5 +40,3 @@ I aspire to change my life and profession.
 
 * Belarus
   * 82%
-=======
->>>>>>> 8f61e8d... init: cv.md
