@@ -28,3 +28,14 @@ I aspire to change my life and profession.
 ### Education
 
  МГВРК, Minsk
+
+### Languages
+
+* English
+  * ??%
+
+* Rusian
+  * 95%
+
+* Belarus
+  * 80%
