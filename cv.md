@@ -44,11 +44,6 @@ I aspire to change my life and profession.
 
  МГВРК, Minsk
 
-#### Languages
-
-* English
-  * 1-10%
-
 ### GitHub: <https://github.com/Yakubovich-siarhei>
 
 #### About Me
