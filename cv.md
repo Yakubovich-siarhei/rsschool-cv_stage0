@@ -1,8 +1,9 @@
-# Yakubovich Siarhei
 
-## RSschool student
+# rsschool-cv
 
-### Contacts
+## Yakubovich Siarhei
+
+## Contacts
 
 Location: Minsk, Belarus
 
@@ -12,7 +13,7 @@ Location: Minsk, Belarus
 
 #### About Me
 
-I build a house with my own hands.  
+I build a house with my own hands.
 I aspire to change my life and profession.
 
 #### Skills
@@ -28,14 +29,14 @@ I aspire to change my life and profession.
 #### Code
 
 ```text
-  <html lang="en">                                              
-    <head>                                                        
-    </head>                                                       
-    <body>                                                       
+  <html lang="en">
+    <head>
+    </head>
+    <body>
       <div class="content">
         content
       </div>
-    </body>  
+    </body>
   </html>
 ```
 
@@ -48,10 +49,37 @@ I aspire to change my life and profession.
 * English
   * 1-10%
 
+### GitHub: <https://github.com/Yakubovich-siarhei>
+
+#### About Me
+
+I build a house with my own hands.
+I aspire to change my life and profession.
+
+* #### Skills
+
+  * HTML
+  * CSS/SASS
+  * Git
+  * Photoshop
+  * SkechUp
+  * Compas 3D
+  * Google
+
+### Education
+
+ МГВРК, Minsk
+
+### Languages
+
+* English
+  * ??%
+
 * Rusian
   * 95%
 
 * Belarus
+
   * 80%
 
 2022
