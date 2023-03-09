@@ -238,6 +238,13 @@ html {
     align-items: center;
 }
 
+.skills_item > * :not(:last-child) 
+
+.section_title_skils,
+.skills_item > :not(:last-child) {
+    padding-bottom: 15px;
+}
+
 .skills_level {
     width: 100%;
     height: 5px;
@@ -255,19 +262,28 @@ html {
 }
 
 .level_HTml5_max {
-    flex: 0 1 70%;
-}
-
-.level_HTml5_min {
-    flex: 0 1 30%;
-}
-
-.level_css_max {
     flex: 0 1 60%;
 }
 
-.level_css_min {
+.level_HTml5_min {
     flex: 0 1 40%;
+}
+
+.level_css_max {
+    flex: 0 1 70%;
+}
+
+.level_css_min {
+    flex: 0 1 30%;
+}
+
+.lang_level {
+    display: flex;
+    justify-content: center;
+}
+
+.lang_level > * {
+    padding: 0 10px 10px 0;
 }
 
 /*-----------------------main content right------------------*/
