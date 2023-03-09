@@ -33,7 +33,7 @@ I aspire to change my life and profession.
 ### Languages
 
 * English
-  * ??%
+  * A1
 
 * Rusian
   * 95%
